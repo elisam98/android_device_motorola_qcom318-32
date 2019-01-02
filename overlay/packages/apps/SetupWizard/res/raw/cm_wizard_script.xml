@@ -54,10 +54,10 @@
     </WizardAction>
 
     <WizardAction wizard:uri="intent:#Intent;action=com.cyanogenmod.setupwizard.LINEAGE_LOCATION_SETTINGS;end" id="location_settings">
-        <result wizard:action="lineage_settings" />
+        <result wizard:action="aim_settings" />
     </WizardAction>
 
-    <WizardAction wizard:uri="intent:#Intent;action=com.cyanogenmod.setupwizard.LINEAGE_SETTINGS;end" id="lineage_settings">
+    <WizardAction wizard:uri="intent:#Intent;action=com.cyanogenmod.setupwizard.LINEAGE_SETTINGS;end" id="aim_settings">
         <result wizard:action="fingerprint_settings" />
     </WizardAction>
 
